@@ -1,7 +1,7 @@
 import {createRouter, createWebHistory} from 'vue-router'
 import HomeView from '../views/layout/Home.vue'
 import CounterView from '../views/pages/Counter.vue'
-
+import TextLeaderView from '../views/pages/TextLeader.vue'
 
 const router = createRouter({
     history: createWebHistory(),
@@ -16,6 +16,11 @@ const router = createRouter({
             name: 'counter',
             component: CounterView,
         },
+        {
+            path: '/TextLeader',
+            name: 'TextLeader',
+            component: TextLeaderView, 
+        }
     ]
 })
 

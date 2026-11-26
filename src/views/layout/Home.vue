@@ -5,9 +5,8 @@
 <template>
    <div class="list">
       돌아와요 카바니
-      <RouterLink to="/Counter">
-         카운터 만들기
-      </RouterLink>
+      <RouterLink to="/Counter">카운터 만들기</RouterLink>
+      <RouterLink to="/TextLeader">글자 수 표시</RouterLink>
    </div>
 </template>
 
